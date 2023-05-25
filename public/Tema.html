@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase:3</title>
+  <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+  <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="contenedor">
+  <header>
+    <h1 style="text-align: center; color: white;">DISEÑO DE SITIOS WEB</h1>
+    <h1 style="text-align: center; color: white">FASE 5: OPERAR</h1>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index1.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Temas
+            </a>
+            <div class="btntemas">
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Media Querie</a></li>
+                <li><a class="dropdown-item" href="#">Tema 2</a></li>
+                <li><a class="dropdown-item" href="#">Tema 3</a></li>
+                <li><a class="dropdown-item" href="#">Tema 4</a></li>
+                <li><a class="dropdown-item" href="#">Tema 5</a></li>
+              </ul>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="indexGrupal.html">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fase4.html">Cuestionario</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <aside>
+    <h2 style="text-align: center;">Menú</h2>
+    <section id="aside">
+      <ul class="MenuAside">
+        <li><a href="index1.html">Inicio</a></li>
+        <li><a href="Audio.html">Audios</a></li>
+        <li class="nav-item dropdown2">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nosotros
+          </a>
+          <div class="btnaudios">
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Alejandro Bacca</a></li>
+              <li><a class="dropdown-item" href="#">Persona 2</a></li>
+              <li><a class="dropdown-item" href="#">Persona 3</a></li>
+              <li><a class="dropdown-item" href="#">Persona 4</a></li>
+              <li><a class="dropdown-item" href="#">Persona 5</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="indexGrupal.html">Equipo</a></li>
+      </ul>
+    </section>
+  </aside>
+
+  <main>
+    <section>
+      <p>
+      <section style="text-align: center">
+        <h1>¿Que es Media Querie?</h1>
+      </section>
+      <br><br>
+
+      <p id="txt1">
+        Una media querie es un conjunto de reglas de CSS usadas para hacer que el contenido de una pagina web se adapte
+        a los diferentes tipos de pantalla, resoluciones, orientación y demás situaciones que se puedan presentar
+        mientras se cumplan ciertas condiciones definidas en la programación, como puede ser al pasar de visualizar una
+        pagina en un dispositivo con una pantalla grande a un dispositivo con pantalla pequeña y de menor resolución.
+        <br><br>
+      </p>
+      <p id="txt2">
+        Entre las cosas que se pueden modificar con una media querie están las siguientes:
+        <br><br>
+      </p>
+      <ul id="listaMQ">
+        <li>Visibilidad de elementos.</li>
+        <li>Modificar el tamaño de un texto.</li>
+        <li>Modificar el tamaño de una imagen.</li>
+        <li>Modificar el margen y el espacio de elementos.</li>
+      </ul>
+      </p>
+
+      <P id="txt3">
+        Cuando no existía el uso de las media queries, se tenía que optar por tener dos versiones de una pagina web, una
+        destinada para dispositivos de escritorio y otra diferente para móviles, lo cual por obvias razones era costoso
+        para mantener en funcionamiento estas dos versiones de una misma página. Así que cuando se empezó a usar las
+        media queries este problema era parte del pasado ya que mediante una serie de líneas de código las cuales
+        hicieran que una pagina web se pudiese adaptar sin problema al tamaño tan variado de los dispositivos
+        tecnológicos, resoluciones y orientaciones de dichos dispositivos <b>(Diseño Responsive)</b> y ademas las media
+        queries se comenzaron a implementar por los navegadores en 2012 cuando llego el CSS3. <br>
+      <div style="text-align: center" ;border="10" ;>
+        <img src="Imagenes/img5.png" style="border: 2px solid rgb(100, 255, 11);" width="60%;">
+        <h6 style="text-align: center;">
+          Imagen tomada de: <a href="https://hostingwebcloud.com/que-es-una-media-query/">
+            https://hostingwebcloud.com/que-es-una-media-query/</a>
+        </h6>
+      </div>
+      </P>
+      <br><br>
+      <p id="txt4">
+        Una media quería siempre comienza con esta sintaxis: @media, agregando una Mediatype.
+        <br>
+      <div style="text-align: center" ;border="10" ;>
+        <img src="Imagenes/img1.png" style="border: 2px solid rgb(0, 0, 0);" width="50%;">
+      </div>
+      <h6 style="text-align: center;">
+        Imagen tomada de: <a href="https://www.silocreativo.com/media-queries-css/">
+          https://www.silocreativo.com/media-queries-css/</a>
+      </h6>
+      <p id="txt4">
+        Se puede agrupar o excluir un mediatype específico haciendo uso de los operadores not y only.
+        <br><br>
+      </p>
+      <h2 style="padding-left: 25%;" ;>Ejemplos:</h2>
+      <br>
+      <p style="text-align: center; color: rgb(221, 14, 14);" id="pie_imagen">
+        <b>Ejecuta el CSS en pantalla a partir de 768 px en adelante.</b>
+      </p>
+      <div style="text-align: center" ;border="10" ;>
+        <img src="Imagenes/img2.png" style="border: 3px solid rgb(221, 14, 14);" width="50%;">
+        <h6 style="text-align: center;">
+          Imagen tomada de: <a href="https://javiervallejo.com/ejemplos-de-uso-media-query/">
+            hhttps://javiervallejo.com/ejemplos-de-uso-media-query/</a>
+        </h6>
+        <br>
+
+        <br><br>
+        <p style="text-align: center; color: rgb(143, 33, 245);" id="pie_imagen">
+          <b>Ejecuta el CSS en pantalla hasta resoluciones de 420px como máximo.</b>
+        </p>
+        <img src="Imagenes/img3.png" style="border: 3px solid rgb(143, 33, 245);" width="50%;">
+        <h6 style="text-align: center;">
+          Imagen tomada de: <a href="https://javiervallejo.com/ejemplos-de-uso-media-query/">
+            hhttps://javiervallejo.com/ejemplos-de-uso-media-query/</a>
+        </h6>
+        <br>
+
+        <br><br>
+        <p style="text-align: center; color: #026637;" id="pie_imagen"><b>Ejecuta el CSS para resoluciones entre 1023px
+            y 1280 px.</b> </p>
+        <img src="Imagenes/img4.png" style="border: 3px solid #026637;" width="50%;">
+        <h6 style="text-align: center;">
+          Imagen tomada de: <a href="https://javiervallejo.com/ejemplos-de-uso-media-query/">
+            hhttps://javiervallejo.com/ejemplos-de-uso-media-query/</a>
+        </h6>
+      </div>
+      </p>
+    </section>
+  </main>
+  
+
+
+  <footer>
+    <p1>&copy; 2023 Alejandro Bacca / UNAD. Ultima modificacion: 03/Abril/2023</p1>
+  </footer>
+
+</body>
+
+</html>

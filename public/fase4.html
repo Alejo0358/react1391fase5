@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase:3</title>
+  <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+  <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="estilo2.css">
+</head>
+
+<body class="contenedor">
+  <header>
+    <h1 style="text-align: center; color: white;">DISEÑO DE SITIOS WEB</h1>
+    <h1 style="text-align: center; color: white">FASE 5: OPERAR</h1>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index1.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Temas
+            </a>
+            <div class="btntemas">
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Tema.html">Media Querie</a></li>
+                <li><a class="dropdown-item" href="#">Tema 2</a></li>
+                <li><a class="dropdown-item" href="#">Tema 3</a></li>
+                <li><a class="dropdown-item" href="#">Tema 4</a></li>
+                <li><a class="dropdown-item" href="#">Tema 5</a></li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="indexGrupal.html">Equipo</a>
+            </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <aside>
+    <h2 style="text-align: center;">Menú</h2>
+    <section id="aside">
+      <ul class="MenuAside">
+        <li><a href="index1.html">Inicio</a></li>
+        <li><a href="Audio.html">Audios</a></li>
+        </li>
+        <li class="nav-item dropdown2">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nosotros
+          </a>
+          <div class="btnaudios">
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Alejandro Bacca</a></li>
+              <li><a class="dropdown-item" href="#">Persona 2</a></li>
+              <li><a class="dropdown-item" href="#">Persona 3</a></li>
+              <li><a class="dropdown-item" href="#">Persona 4</a></li>
+              <li><a class="dropdown-item" href="#">Persona 5</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="indexGrupal.html">Equipo</a></li>
+      </ul>
+    </section>
+  </aside>
+
+  <main>
+    <section>
+      <article>
+
+
+        <h1 id="resultado"> Responda las siguientes preguntas</h1>
+    <div>
+        <form name="formulario">
+
+            <div class="container">
+                <h3>1. ¿Cuál de las siguientes opciones define correctamente una media query en CSS? </h3>
+                <input type="radio" name="r1" value="a"> a) @media-query  <br>
+                <input type="radio" name="r1" value="b"> b) @media  <br>
+                <input type="radio" name="r1" value="c"> c) @query-media <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>2. ¿Cuál es la sintaxis correcta para aplicar una media query que tenga un ancho de pantalla mínimo de 768 píxeles? </h3>
+                <input type="radio" name="r2" value="a"> a) @media (min-width: 768px)  <br>
+                <input type="radio" name="r2" value="b"> b) @media (min-width: 768)  <br>
+                <input type="radio" name="r2" value="c"> c) @media (width: 768px) <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>3. ¿Qué propiedad se utiliza para aplicar reglas de estilo solo en pantallas con una resolución de pantalla mayor a 2dppx? </h3>
+                <input type="radio" name="r3" value="a"> a) resolution  <br>
+                <input type="radio" name="r3" value="b"> b) min-resolution  <br>
+                <input type="radio" name="r3" value="c"> c) max-resolution <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>4. ¿Cuál de las siguientes opciones es una forma válida de encadenar múltiples media queries?  </h3>
+                <input type="radio" name="r4" value="a"> a) @media (min-width: 768px) or (min-width: 1024px)   <br>
+                <input type="radio" name="r4" value="b"> b) @media (min-width: 768px), (min-width: 1024px)   <br>
+                <input type="radio" name="r4" value="c"> c) @media (min-width: 768px) && (min-width: 1024px) <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>5. ¿Cuál de las siguientes opciones define correctamente una media query que se aplique solo a dispositivos con pantalla retina (alta resolución)?  </h3>
+                <input type="radio" name="r5" value="a"> a) @media (min-device-pixel-ratio: 2)   <br>
+                <input type="radio" name="r5" value="b"> b) @media (device-pixel-ratio: 2)   <br>
+                <input type="radio" name="r5" value="c"> c) @media (resolution: 2dppx) <br>
+            </div>
+
+
+            <input type="button" value ="Enviar" onclick="procesarRespuestas()"><br>
+            <div style="text-align: center;">
+                <button onclick="repetirCuestionario()">Repetir cuestionario</button>
+            </div>
+            
+        </form>
+    </div>
+    <h1 id="resultados"></h1>
+<script src="js/script.js"></script>
+
+
+        <br><br>
+      </article>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p1>&copy; 2023 Alejandro Bacca / UNAD. Ultima modificacion: 03/Abril/2023</p1>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #006c9e;
+}
+
+h1 {
+    text-align: center;
+    color: #0f0f0c;
+    text-decoration: underline;
+}
+
+form {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+h3 {
+    margin-top: 20px;
+
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #098538;
+    color: #070606;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+}
+input[type="button2"] {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #098538;
+    color: #070606;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    background-color: #cf0000;
+    color: #e9e2e2;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+/* BORDE */
+.container {
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: rgb(92, 194, 143);
+}
+
+h3 {
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 10px;   
+    color: rgb(119, 0, 0);
+    background-color: #f0b60a;
+
+}
+button{
+    display: block;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #4adb98;
+    color: #070606;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+
+}
+button:hover {
+    background-color: #eba308;
+    color: #e9e2e2;
+}
+
